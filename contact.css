@@ -1,0 +1,85 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"poppin",sans-serif;
+  }
+  body{
+    background:white;
+    color:black;
+  }
+  .header{
+    position:fixed ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  .logo{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    margin-left: 50px;
+  }
+  .navbar a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    margin-left: 35px;
+    transition: .3s;
+  }
+  .navbar a:hover,
+  .navbar a.active{
+    color: rgb(209, 136, 79);
+  
+  }
+  .contact{
+    margin: 180px 0;
+    margin-left: 150px;
+    
+  }
+  .contact button{
+    width: 25%;
+    height: 4vh;
+    background: white;
+    border: 2px solid  rgb(59, 186, 219);
+    color: rgb(59, 186, 219) ;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 2px ;
+
+  }
+  .contact textarea{
+    height: 20vh;
+    width: 25%;
+    background: white;
+    border: 2px solid  rgb(59, 186, 219);
+ 
+    font-size: 14px;
+    text-align: left;
+    border-radius: 2px ;
+    padding: 10px;
+  }
+  .contact input{
+    width: 10%;
+    height: 4vh;
+    border: 2px solid  rgb(59, 186, 219);
+    color:rgb(59, 186, 219); 
+    background: rgb(59, 186, 219);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px ;
+    
+  }
+
+  .contact button {
+    border-radius: 5px;
+    padding-left: 5px;
+  }

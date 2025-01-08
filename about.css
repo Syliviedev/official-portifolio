@@ -25,7 +25,7 @@ body{
   color: black;
   text-decoration: none;
   font-weight: 800;
-  margin-left: 50px;
+  margin-left: 80px;
 }
 .navbar a{
   font-size: 18px;
@@ -43,4 +43,29 @@ body{
 
 .about {
   display: flex;
+  /* margin: 100px 0; */
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  margin-left: 110px;
+  /* padding: 20px; */
+}
+.about p{
+  font-size: 20px;
+  /* margin-left: 100px; */
+  padding: 30px;
+}
+.about-img{
+  filter: drop-shadow(-15px 2px 0px  rgba(43, 182, 217, 0.36));
+  margin-left: 300px;
+  
+}
+.about-img img{
+  width: 300px;
+  height: 300px;
+  clip-path: circle(90% at 74% 14%);
+}
+.about-container{
+  width: 450px;
 }
