@@ -41,3 +41,6 @@ body{
 
 }
 
+.about {
+  display: flex;
+}
