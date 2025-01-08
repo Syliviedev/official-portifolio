@@ -1,0 +1,43 @@
+*{
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"poppin",sans-serif;
+}
+body{
+  background:white;
+  color:black;
+}
+.header{
+  position:fixed ;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo{
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+  margin-left: 50px;
+}
+.navbar a{
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+  margin-left: 35px;
+  transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active{
+  color: rgb(209, 136, 79);
+
+}
+
