@@ -8,6 +8,11 @@ body{
   background:white;
   color:black;
 }
+.header img{
+  position: relative;
+  margin-left: 100px;
+  margin-top: 20px;
+}
 .header{
   position:fixed ;
   top: 0;
@@ -47,7 +52,7 @@ body{
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  top: 20%;
+  top: 30%;
   margin-left: 110px;
   /* padding: 20px; */
 }

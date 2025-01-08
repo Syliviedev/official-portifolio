@@ -78,6 +78,11 @@
     border-radius: 5px ;
     
   }
+  .header img{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
 
   .contact button {
     border-radius: 5px;

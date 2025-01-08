@@ -20,12 +20,10 @@ body{
   align-items: center;
   z-index: 100;
 }
-.logo{
-  font-size: 25px;
-  color: black;
-  text-decoration: none;
-  font-weight: 800;
-  margin-left: 50px;
+.header img{
+  position: relative;
+  margin-left: 100px;
+  margin-top: 20px;
 }
 .navbar a{
   font-size: 18px;
