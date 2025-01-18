@@ -46,7 +46,7 @@
     position: absolute;
     
   }
-  .contact button{
+  .contact input{
     width: 20vw;
     height: 4vh;
     background: white;
@@ -68,7 +68,7 @@
     border-radius: 2px ;
     padding: 10px;
   }
-  .contact input{
+  .contact button{
     width: 20%;
     height: 4vh;
     border: 2px solid  rgb(59, 186, 219);
@@ -85,7 +85,7 @@
     margin-top: 20px;
   }
 
-  .contact button {
+  .contact input {
     border-radius: 5px;
     padding-left: 5px;
   }
