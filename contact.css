@@ -109,3 +109,22 @@
       color: rgb(250, 250, 245);
       box-shadow: 0 0 5px rgb(66, 69, 70);
     }
+    @media(max-width:1200px){
+      html{
+        font-size: 55%;
+      }
+    }
+    @media(max-width:991px){
+      .header{
+        padding: 2rem 3%;
+      }
+      section{
+        padding: 10rem 3%;
+      }
+    
+    }
+    @media(max-width:768){
+      .contact{
+        
+    min-height: auto;
+      }}
